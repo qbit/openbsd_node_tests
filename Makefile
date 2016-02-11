@@ -13,6 +13,7 @@ test_pledge:
 	@echo '{"a":1,"b":3}' | ./pp.js > /dev/null && echo "\033[01;32m✓\033[0m pp.js" || echo "\033[01;31m✗\033[0m pp.js"
 
 test_fail_pledge:
+	@echo -n "making un-pledged calls... "
 	@node fail.js > /dev/null || echo "\033[01;32m✓\033[0m fail.js"
 
 test_native:
