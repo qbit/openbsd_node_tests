@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/qbit/openbsd_node_tests#readme",
   "dependencies": {
+    "pushover-notifications": "^0.2.2",
     "sqlite3": "^3.1.1"
   }
 }
