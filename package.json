@@ -1,0 +1,22 @@
+{
+  "name": "openbsd_node_tests",
+  "version": "1.0.0",
+  "description": "OpenBSD node.js tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qbit/openbsd_node_tests.git"
+  },
+  "author": "Aaron Bieber <abieber@openbsd.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qbit/openbsd_node_tests/issues"
+  },
+  "homepage": "https://github.com/qbit/openbsd_node_tests#readme",
+  "dependencies": {
+    "sqlite3": "^3.1.1"
+  }
+}
